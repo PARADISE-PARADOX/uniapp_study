@@ -7,13 +7,6 @@
 			}
 		},
 		{
-			"path" : "pages/demo1/demo1",
-			"style" : 
-			{
-				"navigationBarTitleText" : ""
-			}
-		},
-		{
 			"path" : "pages/vbind/vbind",
 			"style" : 
 			{
@@ -67,6 +60,13 @@
 			"style" : 
 			{
 				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/slot/slot",
+			"style" : 
+			{
+				"navigationBarTitleText" : "solt"
 			}
 		}
 	],

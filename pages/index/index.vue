@@ -67,11 +67,27 @@
 				</swiper>
 			</view>
 			
+			<Userinfo username='zyf' avatar="../../static/2.1.png"></Userinfo>
+			<Userinfo avatar="../../static/2.2.png"></Userinfo>
+			<Userinfo avatar="../../static/logo.png"></Userinfo>
+			
+			<view>------------------------------------</view>
+			
+			<Userinfo v-for="(item,index) in userinfo" :userObj='item'></Userinfo>
+			
+			
+			
 	</view>
 </template>
 
 <script setup>
-	
+import {ref} from 'vue'
+
+const userinfo = ref([
+	{name:'dwad',avatar:'../../static/2.1.png'},
+	{name:'d453d',avatar:'../../static/2.2.png'},
+	{name:'dwliuhg',avatar:'../../static/OIC.png'}
+])
 </script>
 
 <style lang='scss'>

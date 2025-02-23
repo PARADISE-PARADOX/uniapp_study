@@ -8,13 +8,17 @@
 </template>
 
 <script setup>
-import {ref} from 'vue';
+import {ref, watchEffect} from 'vue';
 const nba = ref([
 	{id:1,name:'man1',age:13},
 	{id:2,name:'man2',age:65},
 	{id:3,name:'man3',age:56},
 	{id:4,name:'man4',age:24}
 ])
+
+watchEffect(()=>{
+	console.log(first)
+})
 
 </script>
 
