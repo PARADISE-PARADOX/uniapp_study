@@ -68,6 +68,13 @@
 			{
 				"navigationBarTitleText" : "solt"
 			}
+		},
+		{
+			"path" : "pages/emit/emit",
+			"style" : 
+			{
+				"navigationBarTitleText" : "emit声明触发事件"
+			}
 		}
 	],
 	"globalStyle": {
