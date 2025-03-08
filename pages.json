@@ -75,6 +75,34 @@
 			{
 				"navigationBarTitleText" : "emit声明触发事件"
 			}
+		},
+		{
+			"path" : "pages/life/life",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/expose/expose",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/onload/onload",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/onshow-onhide/onshow-onhide",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
 		}
 	],
 	"globalStyle": {
@@ -82,6 +110,33 @@
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#999",
+		"selectedColor": "#c00",
+		"backgroundColor": "#007aff",
+		"borderStyle": "white",
+		// "position": "top",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text":"首页",
+				"iconPath": "/static/icons/home (1).png",
+				"selectedIconPath": "/static/icons/home.png"
+			},
+			{
+				"pagePath": "pages/vif/vif",
+				"text":"分类",
+				"iconPath": "/static/icons/classify (1).png",
+				"selectedIconPath": "/static/icons/classify.png"
+			},
+			{
+				"pagePath": "pages/vfor/vfor",
+				"text":"vfor",
+				"iconPath": "/static/icons/envform (1).png",
+				"selectedIconPath": "/static/icons/envform.png"
+			}
+		]
 	},
 	"uniIdRouter": {}
 }

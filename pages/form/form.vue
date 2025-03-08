@@ -1,6 +1,6 @@
 <template>
     <view class='out'>
-        <input type='text' :value='iptValue' @focus="isActive=true" @blur="isActive=false" v-model="iptValue" @confirm="console.log(123)"/>
+        <input type='text' :value='iptValue' @focus="isActive=true" @blur="isActive=false" @confirm="console.log(123)"/>
         <image src='/static/OIC.png' class='pic' :class="isActive?'active':''"> </image>
     </view>
     <view>yulan:{{iptValue}}</view>
